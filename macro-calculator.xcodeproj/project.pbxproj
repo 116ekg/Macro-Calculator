@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE017E0D1CB2C39000412DCF /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE017E0C1CB2C39000412DCF /* SecondVC.swift */; };
 		AE6F56621CAF3E3E00DE637F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F56611CAF3E3E00DE637F /* AppDelegate.swift */; };
 		AE6F56641CAF3E3E00DE637F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F56631CAF3E3E00DE637F /* ViewController.swift */; };
 		AE6F56671CAF3E3E00DE637F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F56651CAF3E3E00DE637F /* Main.storyboard */; };
@@ -15,7 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE6F565E1CAF3E3E00DE637F /* macro-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macro-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE017E0C1CB2C39000412DCF /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		AE6F565E1CAF3E3E00DE637F /* MacroCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6F56611CAF3E3E00DE637F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE6F56631CAF3E3E00DE637F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE6F56661CAF3E3E00DE637F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +48,7 @@
 		AE6F565F1CAF3E3E00DE637F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE6F565E1CAF3E3E00DE637F /* macro-calculator.app */,
+				AE6F565E1CAF3E3E00DE637F /* MacroCalc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +62,7 @@
 				AE6F56681CAF3E3E00DE637F /* Assets.xcassets */,
 				AE6F566A1CAF3E3E00DE637F /* LaunchScreen.storyboard */,
 				AE6F566D1CAF3E3E00DE637F /* Info.plist */,
+				AE017E0C1CB2C39000412DCF /* SecondVC.swift */,
 			);
 			path = "macro-calculator";
 			sourceTree = "<group>";
@@ -81,7 +84,7 @@
 			);
 			name = "macro-calculator";
 			productName = "macro-calculator";
-			productReference = AE6F565E1CAF3E3E00DE637F /* macro-calculator.app */;
+			productReference = AE6F565E1CAF3E3E00DE637F /* MacroCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					AE6F565D1CAF3E3E00DE637F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D678BY3E6B;
 					};
 				};
 			};
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE6F56641CAF3E3E00DE637F /* ViewController.swift in Sources */,
+				AE017E0D1CB2C39000412DCF /* SecondVC.swift in Sources */,
 				AE6F56621CAF3E3E00DE637F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,10 +256,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "macro-calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.keller.macro-calculator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MacroCalc;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +270,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "macro-calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.keller.macro-calculator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MacroCalc;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +299,7 @@
 				AE6F56721CAF3E3E00DE637F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

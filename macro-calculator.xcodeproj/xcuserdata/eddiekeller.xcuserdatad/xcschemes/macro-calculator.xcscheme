@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE6F565D1CAF3E3E00DE637F"
-               BuildableName = "macro-calculator.app"
+               BuildableName = "MacroCalc.app"
                BlueprintName = "macro-calculator"
                ReferencedContainer = "container:macro-calculator.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE6F565D1CAF3E3E00DE637F"
-            BuildableName = "macro-calculator.app"
+            BuildableName = "MacroCalc.app"
             BlueprintName = "macro-calculator"
             ReferencedContainer = "container:macro-calculator.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE6F565D1CAF3E3E00DE637F"
-            BuildableName = "macro-calculator.app"
+            BuildableName = "MacroCalc.app"
             BlueprintName = "macro-calculator"
             ReferencedContainer = "container:macro-calculator.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE6F565D1CAF3E3E00DE637F"
-            BuildableName = "macro-calculator.app"
+            BuildableName = "MacroCalc.app"
             BlueprintName = "macro-calculator"
             ReferencedContainer = "container:macro-calculator.xcodeproj">
          </BuildableReference>
